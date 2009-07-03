@@ -1,35 +1,35 @@
 /* body */
 
 body {
-  background-color: #fff; }
+  background-color: white; }
 
 /* links */
 
 a {
-  color: #000; }
+  color: white; }
 a:visited {
-  color: #666; }
+  color: dimgray; }
 a:hover {
-  color: #fff;
-  background-color:#000; }
+  color: white;
+  background-color: black; }
 
 /* flash */
 
 #flash_success {
-  background: green; }
+  background: seagreen; }
 #flash_failure {
-  background: red; }
+  background: tomato; }
 
 /* errors */
 
 .fieldWithErrors {
-  background-color: red; }
+  background-color: tomato; }
 #errorExplanation {
-  border-color: red;
-  background-color: #f0f0f0; }
+  border-color: tomato;
+  background-color: snow; }
 #errorExplanation h2 {
-  background-color: #c00;
-  color: #fff; }
+  background-color: firebrick;
+  color: white; }
 #errorExplanation p {
-  color: #333; }
+  color: darkgray; }
 
