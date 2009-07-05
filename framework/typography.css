@@ -1,18 +1,22 @@
 /*
-  Formula:
-  base line-height / font-size = element line-height
+  Use the classic typographer's scale:
+  6,7,8,9,10,11,12,14,16,18,21,24,36,48,60,72
 
-  Example:
-  base line-height: 1.8 (18px)
+  We use ems for font size.
 
-  1.8 / 7.2em = .25
+  Our typographical math is made easier by Richard Rutter's 62.5% trick:
+  http://www.clagnut.com/blog/348/
 
-  2.1 lineheight
+  15 pixels is 1.5em. 18 pixels is 1.8em. 9 pixels is 0.9em.
+
+  Inheritance slightly complicates the math, but there's a simple formula:
+
+  child pixels / parent pixels = child ems
 */
 
 body {
   background-position: top left;
-  font-size: .625em; /* 62.5% of browser default (16px) is 10px */
+  font-size: .625em;
   font-family: Lucida Sans, Arial, Helvetica,sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
