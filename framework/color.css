@@ -1,17 +1,27 @@
+/*
+  We use extended CSS color names by default for readability.
+  http://www.iangraham.org/books/style/appa/color2.html
+
+  In practice, we use whatever hexadecimal colors the designer wants.
+
+  We use off-white & off-black because computer screens
+  have high black/white contrast.
+*/
+
 /* body */
 
 body {
-  background-color: white; }
+  background-color: linen; }
 
 /* links */
 
 a {
-  color: black; }
+  color: lightslategray; }
 a:visited {
   color: dimgray; }
 a:hover {
-  color: white;
-  background-color: black; }
+  color: linen;
+  background-color: lightslategray; }
 
 /* flash */
 
@@ -29,7 +39,7 @@ a:hover {
   background-color: snow; }
 #errorExplanation h2 {
   background-color: firebrick;
-  color: white; }
+  color: linen; }
 #errorExplanation p {
   color: darkgray; }
 

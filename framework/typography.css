@@ -25,35 +25,30 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: 1.4em;
-  line-height: 1.5;
+  font-weight: lighter;
   margin: 0 1.5em 1.5em 0; }
 
 h1 {
   font-size: 4.2em;
-  line-height: 1;
   margin: 0 .5em .5em 0; }
 
 h2 {
   font-size: 3.5em;
-  line-height: 1.2;
   margin: 0 .6em .6em 0; }
 
 h3 {
   font-size: 2.8em;
-  line-height: .75em;
   margin: 0 .75em .75em 0 }
 
 ul {
   list-style-type: square;
   margin: 0 1.5em 1.5em 1em; }
 
-ul,
-dl,
-th,
-td,
-legend {
-  font-size: 1.4em;
-  line-height: 1.5; }
+li {
+  font-weight: lighter; }
+
+ul, dl, th, td, legend {
+  font-size: 1.4em; }
 
 #flash_notice, #flash_success, #flash_failure {
   letter-spacing: .15em;
@@ -74,4 +69,49 @@ a {
 
 a:hover {
   text-decoration: underline; }
+
+/*
+  the measure
+
+  d. The length of a single line of text.
+
+  We use ems to set the width of blocks of text.
+  Typically, between 30 and 50 ems is recommended for optimal readibility.
+*/
+
+/*
+  leading
+
+  d. The space between lines of type.
+
+  Blocks of text usually need positive leading.
+  Headers usually need less leading, and sometimes negative leading.
+
+  Darker faces usually need more lead than lighter ones.
+  Sans serif type usually needs more lead then serif type.
+
+  Leading is set with line-height.
+  line-height can be (and should be) set with a unit-less integer.
+  We use the unit-less integer to ensure line-height scales with text.
+*/
+
+p {
+  line-height: 1.5; }
+
+h1 {
+  line-height: 1; }
+
+h2 {
+  line-height: 1.2; }
+
+h3 {
+  line-height: .75; }
+
+ul, dl, th, td, legend {
+  line-height: 1.5; }
+
+/* justification */
+
+body {
+  text-align: left; }
 
