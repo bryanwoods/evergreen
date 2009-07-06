@@ -2,9 +2,10 @@
   We use CSS color names by default for readability.
   http://www.w3schools.com/css/css_colorsfull.asp
 
-  In practice, we use whatever hexadecimal colors the designer wants.
+  It is expected the designer(s) will pick a scheme that may include hex colors.
+  http://colors.napcsweb.com/colorschemer
 
-  We use off-white & off-black because computer screens
+  We prefer off-white & off-black because computer screens
   have high black/white contrast.
 */
 
