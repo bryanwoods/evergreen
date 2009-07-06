@@ -1,6 +1,6 @@
 /*
-  We use extended CSS color names by default for readability.
-  http://www.iangraham.org/books/style/appa/color2.html
+  We use CSS color names by default for readability.
+  http://www.w3schools.com/css/css_colorsfull.asp
 
   In practice, we use whatever hexadecimal colors the designer wants.
 
@@ -11,24 +11,24 @@
 /* body */
 
 body {
-  background-color: linen; }
+  background-color: snow; }
 
 /* links */
 
 a {
-  color: lightslategray; }
+  color: midgnightblue; }
 a:visited {
   color: dimgray; }
 a:hover {
-  color: linen;
-  background-color: lightslategray; }
+  color: snow;
+  background-color: black; }
 
 /* flash */
 
 #flash_success {
   background: seagreen; }
 #flash_failure {
-  background: tomato; }
+  background: firebrick; }
 
 /* errors */
 
@@ -39,7 +39,7 @@ a:hover {
   background-color: snow; }
 #errorExplanation h2 {
   background-color: firebrick;
-  color: linen; }
+  color: floralwhite; }
 #errorExplanation p {
   color: darkgray; }
 

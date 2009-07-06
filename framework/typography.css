@@ -9,7 +9,7 @@
   Our typographical math is made easier by Richard Rutter's 62.5% trick:
   http://www.clagnut.com/blog/348/
 
-  15 pixels is 1.5em. 18 pixels is 1.8em. 9 pixels is 0.9em.
+  16 pixels is 1.6em. 18 pixels is 1.8em. 9 pixels is 0.9em.
 
   Inheritance slightly complicates the math, but there's a simple formula:
 
@@ -37,7 +37,7 @@ h5 {
 h6 {
   font-size: 1.6em; }
 
-#flash_notice, #flash_success, #flash_failure {
+#flash_notice, #flash_success, #flash_failure, #errorExplanation ul li {
   font-size: 1.6em; }
 
 p, ul, li, dl, th, td, legend {
@@ -46,18 +46,20 @@ p, ul, li, dl, th, td, legend {
 /* typeface */
 
 body {
-  font-family: Lucida Sans, Arial, Helvetica, sans-serif; }
+  font-family: Verdana, "Lucida Grande", Lucida, Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Georgia, "Times New Roman", Times, serif; }
 
 p, ul, li, dl, th, td, legend {
-  font-weight: lighter;
-  font-family: Gotham, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-weight: lighter; }
 
 pre, code {
   font-family: Monaco, "DejaVu Sans", Courier, "Courier New", monospace; }
+
+#errorExplanation {
+  font-weight: bold; }
 
 /*
   leading
@@ -65,7 +67,7 @@ pre, code {
   d. The space between lines of type.
 
   Blocks of text usually need positive leading.
-  Headers usually need less leading, and sometimes negative leading.
+  Headers usually need less leading.
 
   Darker faces usually need more lead than lighter ones.
   Sans serif type usually needs more lead then serif type.
@@ -75,20 +77,26 @@ pre, code {
   We use the unit-less integer to ensure line-height scales with text.
 */
 
-p {
-  line-height: 1.5; }
-
 h1 {
-  line-height: 1; }
+  line-height: 1.0; }
 
 h2 {
   line-height: 1.2; }
 
 h3 {
-  line-height: .75; }
+  line-height: 1.4; }
 
-ul, dl, th, td, legend {
-  line-height: 1.5; }
+h4 {
+  line-height: 1.6; }
+
+h5 {
+  line-height: 1.6; }
+
+h6 {
+  line-height: 1.6; }
+
+p, ul, li, dl, th, td, legend {
+  line-height: 1.6; }
 
 /* justification */
 
@@ -101,11 +109,14 @@ ul {
   list-style-position: outside;
   list-style-type: square; }
 
-a {
+a, a:visited, a:link {
   text-decoration: none; }
 
 a:hover {
   text-decoration: underline; }
+
+th {
+  text-transform: uppercase; }
 
 /*
   the measure
