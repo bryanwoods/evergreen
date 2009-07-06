@@ -19,15 +19,13 @@ a {
   color: midgnightblue; }
 a:visited {
   color: dimgray; }
-a:hover {
-  color: snow;
-  background-color: black; }
 
 /* flash */
 
 #flash_success {
   background: seagreen; }
 #flash_failure {
+  color: beige;
   background: firebrick; }
 
 /* errors */
