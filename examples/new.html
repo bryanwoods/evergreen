@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Evergreen</title>
+    <link href="../screen.css" media="all" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Sign up</h1>
+
+    <form action="/users" class="new_user" id="new_user" method="post"><div style="margin:0;padding:0"><input name="authenticity_token" type="hidden" value="iFiPUmAvKdBpgdffir9IuKtVfbhZ8xMV/AVPl38gsIM=" /></div>
+      <fieldset class="inputs">
+        <div class="string">
+          <label for="user_email">Email</label>
+          <input id="user_email" name="user[email]" size="30" type="text" />
+        </div>
+
+        <div class="password">
+          <label for="user_password">Password</label>
+          <input id="user_password" name="user[password]" size="30" type="password" />
+        </div>
+        <div class="password">
+          <label for="user_password_confirmation">Confirm password</label>
+          <input id="user_password_confirmation" name="user[password_confirmation]" size="30" type="password" />
+        </div>
+      <fieldset>
+      <fieldset class="buttons">
+        <input id="user_submit" name="commit" type="submit" value="Sign up" />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Evergreen</title>
+    <link href="../screen.css" media="all" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="flash">
+      <div id="flash_notice">You will receive an email within the next few minutes. It contains instructions for confirming your account.</div>
+    </div>
+    <h2>Sign in</h2>
+    <form action="/session" method="post"><div style="margin:0;padding:0"><input name="authenticity_token" type="hidden" value="dIqqeOQNXbJrvNI2ahdbWqKWJet67ffqj0++e1ckbMo=" /></div>
+      <fieldset class="inputs">
+        <div class="string">
+          <label for="session_email">Email</label>
+          <input id="session_email" size="30" type="text" />
+        </div>
+        <div class="password">
+          <label for="session_password">Password</label>
+          <input id="session_password" size="30" type="password" />
+        </div>
+        <div class="boolean">
+          <input type="hidden" value="0" /><input id="session_remember_me" type="checkbox" value="1" />
+          <label for="session_remember_me">Remember me</label>
+        </div>
+      </fieldset>
+      <fieldset class="buttons">
+        <input name="commit" type="submit" value="Sign in" />
+      </fieldset>
+    </form>
+    <ul>
+      <li>
+        <a href="/users/new">Sign up</a>
+      </li>
+      <li>
+        <a href="/passwords/new">Forgot password?</a>
+      </li>
+    </ul>
+  </body>
+</html>
