@@ -37,7 +37,7 @@ h5 {
 h6 {
   font-size: 1.6em; }
 
-#flash_notice, #flash_success, #flash_failure, #errorExplanation ul li {
+#flash_notice, #flash_success, #flash_failure {
   font-size: 1.6em; }
 
 p, ul, dl, th, td, legend {
@@ -52,13 +52,13 @@ fieldset p.instruction {
 /* typeface */
 
 body {
-  font-family: Verdana, "Lucida Grande", Lucida, Arial, sans-serif; }
+  font-family: Helvetica, "Lucida Grande", Lucida, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, "Times New Roman", Times, serif; }
 
 pre, code {
-  font-family: Monaco, "DejaVu Sans", Courier, "Courier New", monospace; }
+  font-family: Monaco, "Courier New", Courier, monospace; }
 
 /* weighting */
 
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 p, ul, li, dl, th, td, legend {
   font-weight: lighter; }
 
-#flash_notice, #flash_success, #flash_failure, #errorExplanation ul li {
+#flash_notice, #flash_success, #flash_failure {
   font-weight: bold; }
 
 /*
