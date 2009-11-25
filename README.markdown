@@ -1,3 +1,11 @@
+== HACK HACK HACK
+
+This is a fork of the official Evergreen framework, which can be found at: http://github.com/dancroak/evergreen
+
+This fork reverts to using screen.css to import all stylesheets in order from a framework/ directory.
+
+I have also added a compressed and concatenated all.css for using with the defaults.
+
 Evergreen
 ---------
 
